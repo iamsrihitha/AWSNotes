@@ -135,3 +135,35 @@ EC2 is a AWS service where we can launch EC2 instance.
 ElasticBean stalk:
 ------------------
 Easy and quick way of deploying application in aws.
+
+
+
+Regions and Availability Zones:
+--------------------------------
+Region: It is a place where AWS has its infrastructure. ex: AWS-Region in mumbai.
+A Region has multiple availability zones(data centers).
+servers=Instances
+
+
+scalability:
+------------
+Increasing the capacity of servers.
+
+High Availability:
+------------------
+The period of time available for customer is the high availability. these is measured in %.
+Three rules of high availability:
+1.Redundency: Keeping the same application in different servers.
+2.Monitoring: loadbalancer is doing the monitoring using(Status code 200)
+3.failover: If one server goes down another server will take care with the help of load balancer.
+
+Down Time:
+----------
+The period of time not available for customer is the down time.
+
+zero down time:
+--------------
+falltolarence is achieved by auto scaling this is called Zero downtime.
+
+Low Latency: High speed (good)
+High Latency: low speed (bad)
